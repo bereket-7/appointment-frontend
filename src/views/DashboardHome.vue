@@ -1,14 +1,6 @@
-<!-- <template>
-  <DashboardLayout>
-  </DashboardLayout>
-</template>
-
-<script setup>
-import DashboardLayout from '@/layouts/DashboardLayout.vue'
-</script> -->
-
-<!-- src/views/DashboardHome.vue -->
 <script setup lang="ts">
+import StatWidget from '@/components/dashboard/StatWidget.vue';
+
 </script>
 
 <template>
@@ -18,4 +10,5 @@ import DashboardLayout from '@/layouts/DashboardLayout.vue'
       This is the main dashboard view. Use the sidebar to navigate through the app.
     </p>
   </div>
+    <StatWidget />
 </template>
